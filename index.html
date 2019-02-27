@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="CydiaIcon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
@@ -12,31 +13,25 @@
 	<body>
 
 		<div class="container">
-			<h1>Twickd</h1>
-		</div>
-
-		<div class="container">
-			<div class="well">
-				<p><span class="text-warning font-weight-bold">Twickd</span> Repository</p>
-				<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://twickd.github.io/" class="btn btn-sm btn-dark">Add to Cydia</a>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="card my-3">
-				<div class="card-header text-white bg-dark">Old Package</div>
-				<div class="card-body">
-					This is a sample package with minimal information.
-					It also simulates an old package that's incompatible only with iOS lower than 7.0.<br /><br />
-					<a class="btn btn-outline-dark" href="depictions/?p=com.supermamon.oldpackage">More info</a>
+			<div class="d-flex row pt-4">
+				<div class="col-4">
+					<img src="CydiaIcon.png" class="img-fluid" alt="">
+				</div>
+				<div class="col-8">
+					<h1 class="display-1 font-weight-bold">Twickd</h1>
 				</div>
 			</div>
-		
+			<div class="pt-4 w-100 d-flex justify-content-center">
+				<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://twickd.github.io/" class="btn btn-dark">Add to Cydia</a>
+			</div>
+		</div>
+
+		<div class="container">		
 			<div class="card my-3">
-				<div class="card-header text-white bg-dark">New Package</div>
+				<div class="card-header text-white bg-dark">NCNoTitle</div>
 				<div class="card-body">
-					This is a sample package with lots of information.<br /><br />
-					<a class="btn btn-outline-dark" href="depictions/?p=com.supermamon.newpackage">More info</a>
+					<p>Remove the annoying Notification Center title!</p>
+					<a class="btn btn-outline-dark" href="depictions/?p=com.twickd.ncnotitle">More info</a>
 				</div>
 			</div>
 		</div>
