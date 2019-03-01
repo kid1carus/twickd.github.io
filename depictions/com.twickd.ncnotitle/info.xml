@@ -1,7 +1,7 @@
 <package>
 	<id>com.twickd.ncnotitle</id>
 	<name>NCNoTitle</name>
-	<version>1.0.0-1</version>
+	<version>1.0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
